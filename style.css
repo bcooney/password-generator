@@ -1,9 +1,31 @@
 /* CSS Document */
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+  font-family: "Raleway",Arial,sans-serif;
+  font-weight: normal; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+h5 { font-size: 17px; line-height: 24px; }
+h6 { font-size: 14px; line-height: 21px; }
+.subheader { color: #777; }
+
+p { margin: 0 0 20px 0; }
+p img { margin: 0; }
+p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+em { font-style: italic; }
+strong { font-weight: bold; color: #333; }
+small { font-size: 80%; }
+
 HTML, BODY, .h100 {
     height: 100%;
+    background-color: white
 }
 div.main{
-    background: #efefef;
+    background: #f8f9f9;
     border-radius: 7px;
     padding: 20px;
     font-size: 18px;
@@ -21,6 +43,7 @@ small{
     height: 50px;
     padding: 0 8px;
     text-align: center;
+    font-family: "Raleway",Arial,sans-serif;
 }
 .input2{
     margin-top: 15px;
@@ -30,9 +53,7 @@ small{
     height: 50px;
     border-radius: 7px;
     cursor: pointer;
-    background-color: #0074CC;
-    background-image: -moz-linear-gradient(center top , #0088CC, #0055CC);
-    background-repeat: repeat-x;
+    background-color: #FF4CAF;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     -moz-border-bottom-colors: none;
     -moz-border-image: none;
@@ -41,16 +62,33 @@ small{
     -moz-border-top-colors: none;
     border-style: solid;
     border-width: 1px;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    font-family: "Raleway",Arial,sans-serif;
 }
 
 #my-slider {
     margin-top: 15px;
     border: #ffffff 1px solid;
+    background-color: #4CAFFF;
+    background: linear-gradient(45deg, white 25%,
+    #f8fafb 25%, #f8fafb 50%,
+    white 50%, white 75%,
+    #f8fafb 75%);
+    background-size:100px 100px;
     border-radius: 5px;
+    font-size: 14px;
+    font-family: "Raleway",Arial,sans-serif;
 }
 #drag-helper {
     border-radius: 5px;
+    background-color: #4CAFFF;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-style: solid;
+    border-width: 1px;
 }
 label{
     width: 148px;
@@ -60,6 +98,8 @@ label{
     border: 1px #ffffff solid;
     border-radius: 5px;
     background-color: #dddddd;
+    font-size: 14px;
+    font-family: "Raleway",Arial,sans-serif;
 }
 #footer {
     padding: 30px 0 0 0;
